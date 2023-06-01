@@ -2,7 +2,7 @@
 
 **Version 0.7.1**
 
-This is a command-line interface (CLI) app for Zettelkasten-style note-taking and knowledge management. With this app, you can easily create, organize, and review notes using a simple and intuitive commands
+This is a command-line interface (CLI) app for Zettelkasten-style note-taking and knowledge management. With this app, you can easily create, organize, and review notes using a simple and intuitive commands.
 
 ## Features
 
