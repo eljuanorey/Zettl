@@ -1,4 +1,4 @@
-# Xwandev CLI App
+# Zettlr CLI App
 
 **Version 0.7.1**
 
