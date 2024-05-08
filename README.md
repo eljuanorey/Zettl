@@ -1,4 +1,4 @@
-# Zettlr CLI App
+# Zettl CLI App
 
 **Version 0.7.1**
 
