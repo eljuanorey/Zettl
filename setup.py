@@ -20,7 +20,6 @@ setup(
         },
         'sdist': {
             'dist_dir': 'dist',
-            'install_scripts': 'zettl/bin',
         },
     }
 )
