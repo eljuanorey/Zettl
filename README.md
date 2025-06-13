@@ -6,7 +6,7 @@ This is a command-line interface (CLI) app for Zettelkasten-style note-taking an
 
 ## Features
 
-- Create new notes or folders with a specified title and content
+- Create new notes or folders with a specified title
 - Update the index of all notes to ensure they are properly linked and organized
 - Generate a list of review dates for all notes based on the spaced repetition method
 
@@ -23,7 +23,7 @@ This will install the app and all of its dependencies. After installation, you c
 To use the app, open a terminal window and navigate to the root directory of your choice. Then, run the `zettl` command followed by one of the following subcommands:
 
 - `init`: Initializes the app by creating a new Zettelkasten-style note-taking system.
-- `new note`: Creates a new note and adds it to the notes directory. The user can specify the title and content of the note.
+- `new note`: Creates a new note and adds it to the notes directory. The user can specify the folder path and the title of the note.
 - `new folder`: Creates a new folder and adds it to the directory. The user can specify the title of the folder.
 - `update-index (upind)`: Updates the index of all notes to ensure that they are properly linked and organized.
 - `update-review-schedule (uprev)`: Generates a list of review dates for all notes based on the spaced repetition method.
