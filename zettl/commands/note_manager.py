@@ -9,7 +9,7 @@ def create_markdown_note(folder_path, note_title, naming_convention="%m%d%Y-%H%M
     now = datetime.now()
 
     # Create the filename for the note
-    filename = now.strftime("%m%d%Y-%H%M.md")
+    filename = now.strftime(naming_convention)
 
     # Construct the full path to the file
     file_path = os.path.join(folder_path, filename)
