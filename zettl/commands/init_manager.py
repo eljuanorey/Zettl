@@ -73,6 +73,3 @@ def init_blank(project_path):
 }             
 """)
 
-def create_folder_structure(project_path, directory_structure=[]):    
-    for folder in directory_structure:
-        os.makedirs(os.path.join(project_path, folder))
