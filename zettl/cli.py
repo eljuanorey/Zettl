@@ -53,6 +53,8 @@ def new():
 @click.argument('note_title', type=str)
 def note(folder_path, note_title):
     naming_convention = get_config_parameter("data/config.json", "notes_naming")
+    if isinstance(naming_convention, (list, tuple)):
+        naming_convention = naming_convention[0] if naming_convention else "%m%d%Y-%H%M.md"
     create_markdown_note(folder_path, note_title, naming_convention)
 
 @new.command(name="folder", aliases=["nf"])
