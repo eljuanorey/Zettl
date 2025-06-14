@@ -7,7 +7,7 @@ def create_markdown_note(folder_path, note_title, naming_convention="%m%d%Y-%H%M
 
     # Get the current date and time
     now = datetime.now()
-
+    
     # Determine the filename using the provided naming convention
     if isinstance(naming_convention, (list, tuple)):
         naming_format = naming_convention[0] if naming_convention else "%m%d%Y-%H%M.md"
